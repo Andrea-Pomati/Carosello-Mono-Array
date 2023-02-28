@@ -8,7 +8,7 @@
 // Per prima cosa, creiamo il markup statico:
 //  costruiamo il container e inseriamo un'immagine grande al centro: 
 //  avremo così la struttura base e gli stili pronti per poterci poi concentrare
-//   solamente sull'aspetto logico.
+//  solamente sull'aspetto logico.
 // MILESTONE 2
 // Adesso rimuoviamo tutto il markup statico e inseriamo tutte le immagini 
 // dinamicamente servendoci dell'array fornito e un semplice ciclo for che concatena
@@ -45,3 +45,9 @@
 //  per capire cosa vogliamo fare
 // 3. Al momento giusto (ihihhi starà a voi capire quale)
 //  rispondete a questa domanda: "Quanti cicli servono?"
+
+// preparo un array di immagini
+
+const images = ["img/01webp","img/02webp","img/03webp","img/04webp","img/05webp","img/06webp"]
+
+console.log(images)
