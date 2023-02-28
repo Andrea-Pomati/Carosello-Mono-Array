@@ -50,4 +50,15 @@
 
 const images = ["img/01webp","img/02webp","img/03webp","img/04webp","img/05webp","img/06webp"]
 
-console.log(images)
+// associo le variabili const agli elementi html 
+
+const upArrowEl = document.getElementById("up-arrow")
+const carouselActiveImg = document.getElementById("_img-carousel")
+const downArrowEl = document.getElementById("down-arrow")
+
+// memorizzo una variabile di indice che parte da 0
+
+let index = 0
+
+
+
